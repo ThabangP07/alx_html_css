@@ -32,6 +32,9 @@ table {
     width: 500px;
 }
 
+.alx_logo {
+    border: 1px solid red;
+}
 .table-heads {
     border: 2px solid rgb(207, 147, 26); 
     padding: 8px;
