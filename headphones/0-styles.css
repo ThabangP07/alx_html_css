@@ -7,9 +7,15 @@
 /* ------------- HEADER --------------- */
 
 header {
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    padding: 20px 40px;
 }
 
 nav ul {
