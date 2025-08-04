@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ------------- HEADER --------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
