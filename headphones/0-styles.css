@@ -24,3 +24,21 @@ nav ul {
 nav ul li {
     list-style: none;
 }
+
+/* -------------- MAIN ----------- */
+
+main {
+    height: 100vh;
+    background-image: url(./images/headphones_hero_1.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+    width: 40%;
+    text-align: center;
+
+}
