@@ -48,3 +48,15 @@ main p {
     text-align: center;
 
 }
+
+h1, h2, p, button, li {
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(245, 31, 31, 0.849);
+    font-weight: bold;
+}
