@@ -30,6 +30,7 @@ nav ul {
 nav ul li {
     list-style: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* -------------- MAIN ----------- */
