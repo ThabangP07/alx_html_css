@@ -29,6 +29,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    font-weight: bold;
 }
 
 /* -------------- MAIN ----------- */
@@ -51,6 +52,7 @@ main p {
 
 h1, h2, p, button, li {
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
