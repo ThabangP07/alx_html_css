@@ -76,3 +76,15 @@ nav ul li {
     font-weight: bold;
     cursor: pointer;
 }
+
+/*--------------- About Section ------------*/
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px auto;
+    width: 80%;
+}
+
