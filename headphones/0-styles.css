@@ -39,7 +39,6 @@ main {
     background-image: url(./images/headphones_hero_1.jpg);
     display: flex;
     flex-direction: column;
-    gap: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -47,7 +46,6 @@ main {
 main p {
     width: 40%;
     text-align: center;
-
 }
 
 h1, h2, p, button, li {
@@ -57,8 +55,10 @@ h1, h2, p, button, li {
 
 button {
     padding: 10px;
+    margin: 50px auto;
     border-radius: 20px;
     border: 0px;
     background-color: rgba(245, 31, 31, 0.849);
     font-weight: bold;
+    cursor: pointer;
 }
