@@ -85,6 +85,22 @@ nav ul li {
     align-items: center;
     gap: 50px;
     margin: 50px auto;
-    width: 80%;
+    text-align: center;
+    width: 60%;
 }
 
+.about-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.about-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
