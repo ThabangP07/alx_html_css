@@ -78,6 +78,15 @@ nav ul li {
 }
 
 /*--------------- About Section & Our results section ------------*/
+
+
+#our-results {
+    background-image: url(./images/headphones_hero_2.jpg);
+    width: 100% !important;
+    height: 90vh;
+    color: white
+}
+
 #about-us, #our-results {
     display: flex;
     flex-direction: column;
