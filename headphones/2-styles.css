@@ -84,7 +84,16 @@ nav ul li {
     background-image: url(./images/headphones_hero_2.jpg);
     width: 100% !important;
     height: 90vh;
-    color: white
+    color: white;
+}
+
+#our-results .hex-card {
+    background-image: url(./images/pentagone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 150px;
+    margin: 20px;
 }
 
 #about-us, #our-results {
