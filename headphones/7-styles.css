@@ -9,8 +9,9 @@
 
 header {
     margin: 0 auto;
-    position: fixed;
     width: 100%;
+    position: absolute;
+    z-index: 10;
 }
 
 nav {
@@ -45,6 +46,7 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .description {
