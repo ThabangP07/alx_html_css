@@ -157,3 +157,14 @@ input, textarea {
     border-bottom: 2px solid black;
     outline: none;
 }
+
+/* ------------------ FOOTER ------------------ */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
