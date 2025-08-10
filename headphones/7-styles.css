@@ -20,6 +20,10 @@ nav {
     padding: 20px 40px;
 }
 
+nav img, footer img {
+    width: 250px;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
