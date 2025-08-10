@@ -168,3 +168,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }
+
+footer .social-icons {
+    display: flex;
+    gap: 30px;
+}
