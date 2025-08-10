@@ -87,6 +87,7 @@ nav ul li {
     color: white;
 }
 
+/* 
 #our-results .hex-card {
     background-image: url(./images/pentagone.png);
     background-size: cover;
@@ -95,6 +96,26 @@ nav ul li {
     height: 150px;
     margin: 20px;
 }
+*/
+
+#our-results .hex-card {
+    margin: 30px auto;
+}
+
+.pentagon {
+  width: 160px;
+  height: 150px;
+  margin: 20px;
+  background: rgb(243, 80, 80);
+  clip-path: polygon(
+    50% 0%,   /* Top point */
+    100% 38%, /* Upper right */
+    82% 100%, /* Lower right */
+    18% 100%, /* Lower left */
+    0% 38%    /* Upper left */
+  );
+}
+
 
 #about-us, #our-results, #contact-me {
     display: flex;
