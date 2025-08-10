@@ -67,7 +67,7 @@ nav ul li {
     color: white;
 }
 
-#home button {
+#home button, #contact-me button {
     padding: 10px;
     margin: 50px auto;
     border-radius: 20px;
