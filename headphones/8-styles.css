@@ -17,6 +17,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 20%; 
     padding: 20px 40px;
 }
 
