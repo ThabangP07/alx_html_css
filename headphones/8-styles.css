@@ -43,7 +43,15 @@ nav ul li:hover {
         color: red;
         text-decoration: underline;
         transition: width 0.3s ease-in
-    }
+}
+
+/* Hamburger icon hidden by default (desktop) */
+#hamburger i {
+    display: none;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+}
 
 /* -------------- MAIN ----------- */
 
@@ -75,7 +83,7 @@ nav ul li:hover {
     text-align: center;
 }
 
-#home h1, #home p, #home button, nav>ul>li {
+#home h1, #home p, #home button, nav ul li {
     color: #fff;
 }
 
