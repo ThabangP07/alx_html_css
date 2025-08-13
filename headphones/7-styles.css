@@ -39,6 +39,12 @@ nav ul li {
     cursor: pointer;
 }
 
+nav ul li:hover {
+        color: red;
+        text-decoration: underline;
+        transition: width 0.3s ease-in
+    }
+
 /* -------------- MAIN ----------- */
 
 
