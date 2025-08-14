@@ -71,6 +71,11 @@ nav ul li:hover {
     #hamburger i {
         display: block; /* Show hamburger icon */
     }
+    
+    #nav-links.show {
+    display: flex; /* Show when toggled */
+    background-color: inherit;
+  }
 }
 /* -------------- MAIN ----------- */
 
