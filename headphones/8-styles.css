@@ -48,7 +48,7 @@ nav ul li:hover {
 }
 
 /* Hamburger icon hidden by default (desktop) */
-#hamburger .nav-icon {
+#nav-icons .nav-icon {
     display: none;
     font-size: 26px;
     color: #fff;
@@ -71,7 +71,7 @@ nav ul li:hover {
         padding: 20px;
     }
 
-    #hamburger .hamburger-icon {
+    #nav-icons .hamburger-icon {
         display: block; /* Show hamburger icon */
     }
     
@@ -84,11 +84,11 @@ nav ul li:hover {
     display: none; /* hide cross by default */
     }
 
-    #hamburger.active .hamburger-icon {
+    #nav-icons.active .hamburger-icon {
     display: none; /* hide hamburger when active */
     }
 
-    #hamburger.active .cross-icon {
+    #nav-icons.active .cross-icon {
         display: block; /* show cross when active */
     }
     

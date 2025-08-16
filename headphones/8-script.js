@@ -1,5 +1,5 @@
 // Select elements
-const hamburger = document.getElementById('hamburger');
+const hamburger = document.getElementById('nav-icons');
 const navLinks = document.getElementById('nav-links');
 
 // Toggle the menu on hamburger click
