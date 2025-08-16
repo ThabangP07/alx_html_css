@@ -76,39 +76,40 @@ nav ul li:hover {
     }
     
     #nav-links.show {
-    display: flex; /* Show when toggled */
-    background-color: inherit;
+        display: flex; /* Show when toggled */
+        background-color: inherit;
   }
 
-  .cross-icon {
-    display: none; /* hide cross by default */
+    .cross-icon {
+        display: none; /* hide cross by default */
     }
 
     #nav-icons.active .hamburger-icon {
-    display: none; /* hide hamburger when active */
+        display: none; /* hide hamburger when active */
     }
 
     #nav-icons.active .cross-icon {
         display: block; /* show cross when active */
     }
 
-    #our-results{
-        width: 100%;
+    #our-results, #about-us{
+        width: 100% !important;
         height: 100% !important;
         gap: 15px !important;
         padding-top: 20px;
     }
 
-    #our-results>p {
+    #our-results>p, #about-us>p {
         width: 90% !important;
     }
 
-    .results-cards {
+    .results-cards, .about-cards {
         flex-direction: column;
         align-items: center;
+
     }
 
-    .results-cards .hex-card {
+    .results-cards .hex-card, .about-cards .card {
         width: 90% !important;
     }
 
