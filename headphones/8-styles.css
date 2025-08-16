@@ -92,6 +92,26 @@ nav ul li:hover {
         display: block; /* show cross when active */
     }
 
+    #our-results{
+        width: 100%;
+        height: 100% !important;
+        gap: 15px !important;
+        padding-top: 20px;
+    }
+
+    #our-results>p {
+        width: 90% !important;
+    }
+
+    .results-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .results-cards .hex-card {
+        width: 90% !important;
+    }
+
     #contact-me {
         width: 90% !important;
         padding: 0;
@@ -159,7 +179,7 @@ nav ul li:hover {
 
 
 #our-results {
-    background-image: url(./images/headphones_hero_2.jpg);
+    background: url(./images/headphones_hero_2.jpg) no-repeat center top,#fff; /* Fallback color that matches the image, I am unable to find it now. I am avoiding to use background cover */
     width: 100% !important;
     height: 90vh;
     color: #fff;
