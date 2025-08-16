@@ -78,7 +78,7 @@ nav ul li:hover {
     #nav-links.show {
         display: flex; /* Show when toggled */
         background-color: inherit;
-  }
+    }
 
     .cross-icon {
         display: none; /* hide cross by default */
@@ -92,14 +92,18 @@ nav ul li:hover {
         display: block; /* show cross when active */
     }
 
-    #our-results, #about-us{
+    #our-results, #about-us, #home{
         width: 100% !important;
         height: 100% !important;
         gap: 15px !important;
         padding-top: 20px;
     }
 
-    #our-results>p, #about-us>p {
+    #home {
+        padding-bottom: 20px;
+    }
+
+    #our-results>p, #about-us>p, #home>p {
         width: 90% !important;
     }
 
@@ -138,7 +142,7 @@ nav ul li:hover {
 /*--------------- Home Section ------------*/
 #home {
     height: 100vh;
-    background-image: url(./images/headphones_hero_1.jpg);
+    background: url(./images/headphones_hero_1.jpg) no-repeat center; 
     display: flex;
     flex-direction: column;
     justify-content: center;
