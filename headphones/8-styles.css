@@ -327,9 +327,8 @@ header {
 /* Tablet Mode */
 @media (min-width: 768px) and (max-width: 1024px) {
     .pentagon {
-        height: auto;
         margin-left: 100px;
-        padding: 20px;
+        padding: 5px;
     }
 
     .hex-card {
@@ -340,7 +339,7 @@ header {
     }
 
     .hex-card p {
-        width: 100% !important;
+        width: 100%;
         height: auto;
     } 
 }
@@ -370,7 +369,7 @@ input, textarea {
 /* Show hamburger icon on smaller screens */
 @media (max-width: 767px) {
     form {
-        width: 100% !important; 
+        width: 100%; 
     }
 
     input, textarea {
