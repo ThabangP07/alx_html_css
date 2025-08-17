@@ -150,6 +150,11 @@ header {
 @media (max-width: 767px) {
     #home {
         padding-bottom: 20px;
+        height: 100vh;
+    }
+
+    #home p {
+        width: 80%;
     }
 }
 
@@ -218,34 +223,33 @@ header {
 /* Mobile Responsiveness */
 /* Show hamburger icon on smaller screens */
 @media (max-width: 767px) {
-     #our-results, #about-us, #home{
-        width: 100% !important;
+     #our-results, #about-us{
+        width: 100%;
         height: 100% !important;
-        gap: 15px !important;
+        gap: 50px;
         padding-top: 20px;
     }
 
-    #our-results>p, #about-us>p, #home>p {
-        width: 90% !important;
+    #our-results>p, #about-us>p {
+        width: 90%;
     }
 
     .results-cards, .about-cards {
         flex-direction: column;
         align-items: center;
-
     }
 
     .results-cards .hex-card, .about-cards .card {
-        width: 90% !important;
+        width: 100%;
     }
 }
 
 /* Tablet Mode */
 @media (min-width: 768px) and (max-width: 1024px) {
     #our-results, #about-us, #contact-me {
-        width: 100% !important;
-        height: 100% !important;
-        margin: 0px auto !important;
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
     }
 
     #about-us .about-cards, #our-results .results-cards {
