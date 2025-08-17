@@ -187,7 +187,7 @@ nav ul li:hover {
 
 
 #our-results {
-    background: url(./images/headphones_hero_2.jpg) no-repeat center top,#fff; /* Fallback color that matches the image, I am unable to find it now. I am avoiding to use background cover */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #0c192a 100%), url(./images/headphones_hero_2.jpg) no-repeat center top, #0c192a; 
     width: 100% !important;
     height: 90vh;
     color: #fff;
