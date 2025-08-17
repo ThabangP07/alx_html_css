@@ -46,7 +46,7 @@ header {
     width: 250px;
 }
 
-#nav-bar #nav-links {
+#nav-bar ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ header {
         padding-left: 20px;
     }
 
-    #nav-bar #nav-links {
+    #nav-bar ul {
         display: none; /* Hide the menu by default */
         flex-direction: column;
         position: absolute;
