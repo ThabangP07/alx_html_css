@@ -167,7 +167,7 @@ header {
 
 
 
-/*--------------- About Section & Our results section ------------*/
+/*--------------- About Section & Our results section & Contact Me section ------------*/
 
 #about-us, #our-results, #contact-me {
     display: flex;
@@ -185,6 +185,8 @@ header {
     font-weight: bold;
     margin-top: 20px;
 }
+
+/*--------------- About Section & Our results section ------------*/
 
 #about-us p, #our-results p {
     font-size: 1rem;
@@ -254,10 +256,18 @@ header {
         width: 90%;
         margin-bottom: 50px;
     }
+}
+
+/* ------------------------ ABOUT US SECTION ------------- */
+#about-us * {
+    color: #000;
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .card {
         padding: 20px;
-        
     }
 
     .card p {
@@ -265,6 +275,7 @@ header {
         height: auto 
     }
 }
+
 
 /* ------------------ RESULTS SECTION ------------------ */
 
@@ -331,7 +342,9 @@ header {
 }
 
 /* ------------------ CONTACT SECTION ------------------ */
-
+#contact-me * {
+    color: #000;
+}
 form {
     display: flex;
     flex-direction: column;
