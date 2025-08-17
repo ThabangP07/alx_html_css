@@ -158,12 +158,13 @@ nav ul li:hover {
         margin: 0px auto !important;
     }
 
-    #about-us .about-cards {
+    #about-us .about-cards, #our-results .results-cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-content: center;
         gap: 20px;
         width: 90%;
-        margin-bottom: 50px; 
+        margin-bottom: 50px;
     }
 
     .card {
@@ -174,6 +175,24 @@ nav ul li:hover {
     .card p {
         width: 100% !important;
         height: auto 
+    }
+
+    .pentagon {
+        height: auto;
+        margin-left: 100px !important;
+        padding: 20px;
+    }
+
+    .hex-card {
+        width: 100% !important;
+        height: auto;
+        margin: 0px auto !important;
+        padding: 10px;
+    }
+
+    .hex-card p {
+        width: 100% !important;
+        height: auto;
     }
 }
 /* -------------- MAIN ----------- */
