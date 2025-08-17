@@ -53,9 +53,12 @@ header {
     cursor: pointer;
 }
 
-#nav-bar #nav-links li:hover {
+#nav-links a {
+    text-decoration: none;
+}
+
+#nav-links a:hover {
         color: red;
-        text-decoration: underline;
         transition: width 0.3s ease-in
 }
 
