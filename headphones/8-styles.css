@@ -152,6 +152,11 @@ nav ul li:hover {
         width: 80% !important;
     }
 
+    #our-results, #about-us, #contact-me {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px auto !important;
+    }
 }
 /* -------------- MAIN ----------- */
 
@@ -251,6 +256,7 @@ nav ul li:hover {
 #about-us h2, #our-results h2, #contact-me h2 {
     font-size: 2.5rem;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 #about-us p, #our-results p {
