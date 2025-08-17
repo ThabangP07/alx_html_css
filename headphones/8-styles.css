@@ -54,6 +54,8 @@ nav ul li:hover {
     color: #fff;
     cursor: pointer;
 }
+
+/* Mobile Responsiveness */
 /* Show hamburger icon on smaller screens */
 @media (max-width: 767px) {
     
@@ -94,109 +96,14 @@ nav ul li:hover {
     #nav-icons.active .cross-icon {
         display: block; /* show cross when active */
     }
-
-    #our-results, #about-us, #home{
-        width: 100% !important;
-        height: 100% !important;
-        gap: 15px !important;
-        padding-top: 20px;
-    }
-
-    #home {
-        padding-bottom: 20px;
-    }
-
-    #our-results>p, #about-us>p, #home>p {
-        width: 90% !important;
-    }
-
-    .results-cards, .about-cards {
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .results-cards .hex-card, .about-cards .card {
-        width: 90% !important;
-    }
-
-    #contact-me {
-        width: 90% !important;
-        padding: 0;
-    }
-
-    form {
-        width: 100% !important; 
-    }
-
-    input, textarea {
-        width: 100%;
-    }
-
-    footer>div {
-        flex-direction: column;
-        gap: 20px;
-    }
-    
 }
 
 /* Tablet Mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-
-    #home h1 {
-        font-size: 2rem !important;
-        margin-bottom: 20px;
-    }
-
-    #home p {
-        width: 80% !important;
-    }
-
-    #our-results, #about-us, #contact-me {
-        width: 100% !important;
-        height: 100% !important;
-        margin: 0px auto !important;
-    }
-
-    #about-us .about-cards, #our-results .results-cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        gap: 20px;
-        width: 90%;
-        margin-bottom: 50px;
-    }
-
-    .card {
-        padding: 20px;
-        
-    }
-
-    .card p {
-        width: 100% !important;
-        height: auto 
-    }
-
-    .pentagon {
-        height: auto;
-        margin-left: 100px !important;
-        padding: 20px;
-    }
-
-    .hex-card {
-        width: 100% !important;
-        height: auto;
-        margin: 0px auto !important;
-        padding: 10px;
-    }
-
-    .hex-card p {
-        width: 100% !important;
-        height: auto;
-    }
+    
 }
-/* -------------- MAIN ----------- */
 
+/* -------------- MAIN ----------- */
 
 /*--------------- Home Section ------------*/
 #home {
@@ -239,6 +146,26 @@ nav ul li:hover {
     cursor: pointer;
 }
 
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+    #home {
+        padding-bottom: 20px;
+    }
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #home h1 {
+        font-size: 2rem !important;
+        margin-bottom: 20px;
+    }
+
+    #home p {
+        width: 80% !important;
+    }
+}
+
 /*--------------- About Section & Our results section ------------*/
 
 
@@ -278,6 +205,16 @@ nav ul li:hover {
   );
 }
 
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
 
 #about-us, #our-results, #contact-me {
     display: flex;
@@ -323,6 +260,77 @@ nav ul li:hover {
     text-align: center;
 }
 
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+     #our-results, #about-us, #home{
+        width: 100% !important;
+        height: 100% !important;
+        gap: 15px !important;
+        padding-top: 20px;
+    }
+
+    #our-results>p, #about-us>p, #home>p {
+        width: 90% !important;
+    }
+
+    .results-cards, .about-cards {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .results-cards .hex-card, .about-cards .card {
+        width: 90% !important;
+    }
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #our-results, #about-us, #contact-me {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px auto !important;
+    }
+
+    #about-us .about-cards, #our-results .results-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 20px;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        padding: 20px;
+        
+    }
+
+    .card p {
+        width: 100% !important;
+        height: auto 
+    }
+
+    .pentagon {
+        height: auto;
+        margin-left: 100px !important;
+        padding: 20px;
+    }
+
+    .hex-card {
+        width: 100% !important;
+        height: auto;
+        margin: 0px auto !important;
+        padding: 10px;
+    }
+
+    .hex-card p {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
 /* ------------------ CONTACT SECTION ------------------ */
 
 form {
@@ -340,6 +348,23 @@ input, textarea {
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
     outline: none;
+}
+
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+    form {
+        width: 100% !important; 
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Same as the desktop */
 }
 
 /* ------------------ FOOTER ------------------ */
@@ -363,4 +388,31 @@ footer>div {
 footer .social-icons {
     display: flex;
     gap: 30px;
+}
+
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+
+    footer>div {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+    
+    #contact-me {
+        width: 90% !important;
+        padding: 0;
+    }  
 }
