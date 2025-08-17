@@ -31,7 +31,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: 0;
 }
 
@@ -55,7 +55,7 @@ nav ul li:hover {
     cursor: pointer;
 }
 /* Show hamburger icon on smaller screens */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     
     #nav-bar {
         flex-direction: row-reverse;
@@ -138,6 +138,20 @@ nav ul li:hover {
         gap: 20px;
     }
     
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #home h1 {
+        font-size: 2rem !important;
+        margin-bottom: 20px;
+    }
+
+    #home p {
+        width: 80% !important;
+    }
+
 }
 /* -------------- MAIN ----------- */
 
