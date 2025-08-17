@@ -157,6 +157,24 @@ nav ul li:hover {
         height: 100% !important;
         margin: 0px auto !important;
     }
+
+    #about-us .about-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 90%;
+        margin-bottom: 50px; 
+    }
+
+    .card {
+        padding: 20px;
+        
+    }
+
+    .card p {
+        width: 100% !important;
+        height: auto 
+    }
 }
 /* -------------- MAIN ----------- */
 
