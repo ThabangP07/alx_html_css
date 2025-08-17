@@ -162,7 +162,7 @@ header {
 @media (max-width: 480px) {
     #home {
         padding-bottom: 20px;
-        height: 100vh;
+        height: 100%;
     }
 
     #home p {
@@ -172,9 +172,17 @@ header {
 
 /* Tablet Responsiveness */
 @media (min-width: 768px) and (max-width: 1000px) {
+
+    #home {
+        padding-bottom: 100px;
+        padding-top: 300px;
+        height: 100%;
+    }
+
     #home h1 {
         font-size: 2rem;
         margin-bottom: 20px;
+        
     }
 
     #home p {
@@ -413,7 +421,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #0c192a;
     color: #fff; 
 }
 footer>div {
