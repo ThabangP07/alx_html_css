@@ -18,6 +18,13 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #ea6512;
+    color: #000;
+    border: 1px solid rgb(243, 80, 80);
+    transition: all 0.3s ease-in-out;
+}
+
 /* ------------- HEADER --------------- */
 
 header {
