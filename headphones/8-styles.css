@@ -1,9 +1,21 @@
+/* Universal Styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
+}
+
+button {
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(243, 80, 80);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* ------------- HEADER --------------- */
@@ -133,20 +145,6 @@ header {
     text-align: center;
 }
 
-#home h1, #home p, #home button, nav ul li {
-    color: #fff;
-}
-
-#home button, #contact-me button {
-    padding: 10px;
-    margin: 50px auto;
-    border-radius: 20px;
-    border: 0px;
-    background-color: rgb(243, 80, 80);
-    font-weight: bold;
-    cursor: pointer;
-}
-
 /* Mobile Responsiveness */
 /* Show hamburger icon on smaller screens */
 @media (max-width: 767px) {
@@ -155,17 +153,19 @@ header {
     }
 }
 
-/* Tablet Mode */
+/* Tablet Responsiveness */
 @media (min-width: 768px) and (max-width: 1024px) {
     #home h1 {
-        font-size: 2rem !important;
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 
     #home p {
-        width: 80% !important;
+        width: 80%;
     }
 }
+
+
 
 /*--------------- About Section & Our results section ------------*/
 
