@@ -169,54 +169,6 @@ header {
 
 /*--------------- About Section & Our results section ------------*/
 
-
-#our-results {
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #0c192a 100%), url(./images/headphones_hero_2.jpg) no-repeat center top, #0c192a; 
-    width: 100% !important;
-    height: 90vh;
-    color: #fff;
-}
-
-/* 
-#our-results .hex-card {
-    background-image: url(./images/pentagone.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 160px;
-    height: 150px;
-    margin: 20px;
-}
-*/
-
-#our-results .hex-card {
-    margin: 30px auto;
-}
-
-.pentagon {
-  width: 160px;
-  height: 150px;
-  margin: 20px;
-  background: rgb(243, 80, 80);
-  clip-path: polygon(
-    50% 0%,   /* Top point */
-    100% 38%, /* Upper right */
-    82% 100%, /* Lower right */
-    18% 100%, /* Lower left */
-    0% 38%    /* Upper left */
-  );
-}
-
-/* Mobile Responsiveness */
-/* Show hamburger icon on smaller screens */
-@media (max-width: 767px) {
-
-}
-
-/* Tablet Mode */
-@media (min-width: 768px) and (max-width: 1024px) {
-    
-}
-
 #about-us, #our-results, #contact-me {
     display: flex;
     flex-direction: column;
@@ -312,24 +264,70 @@ header {
         width: 100% !important;
         height: auto 
     }
+}
 
+/* ------------------ RESULTS SECTION ------------------ */
+
+#our-results {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #0c192a 100%), url(./images/headphones_hero_2.jpg) no-repeat center top, #0c192a; 
+    width: 100%;
+    height: 90vh;
+}
+
+/* 
+#our-results .hex-card {
+    background-image: url(./images/pentagone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 150px;
+    margin: 20px;
+}
+*/
+
+#our-results .hex-card {
+    margin: 30px auto;
+}
+
+.pentagon {
+    width: 160px;
+    height: 150px;
+    margin: 20px;
+    background: rgb(243, 80, 80);
+    clip-path: polygon(
+        50% 0%,   /* Top point */
+        100% 38%, /* Upper right */
+        82% 100%, /* Lower right */
+        18% 100%, /* Lower left */
+        0% 38%    /* Upper left */
+    );
+}
+
+/* Mobile Responsiveness */
+/* Show hamburger icon on smaller screens */
+@media (max-width: 767px) {
+   /* Covered in th mixed styling */
+}
+
+/* Tablet Mode */
+@media (min-width: 768px) and (max-width: 1024px) {
     .pentagon {
         height: auto;
-        margin-left: 100px !important;
+        margin-left: 100px;
         padding: 20px;
     }
 
     .hex-card {
-        width: 100% !important;
-        height: auto;
-        margin: 0px auto !important;
+        width: 100%;
+        height: 100%;
+        margin: 10px auto !important;
         padding: 10px;
     }
 
     .hex-card p {
         width: 100% !important;
         height: auto;
-    }
+    } 
 }
 
 /* ------------------ CONTACT SECTION ------------------ */
